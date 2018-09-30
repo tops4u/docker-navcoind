@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
       pkg-config libssl-dev libevent-dev bsdmainutils libzmq3-dev \
       libqrencode-dev qrencode wget curl \
       # PHP + Apache dependencies
-      php5-cli php5-curl \
+      php7.0-cli php7.0-curl \
       # Boost library
       libboost-system-dev libboost-filesystem-dev libboost-chrono-dev \
       libboost-program-options-dev libboost-test-dev libboost-thread-dev \
